@@ -1,0 +1,52 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS Space scaling factor 2
+PASS scale label matches 2
+PASS HUD dimensions remain unchanged 2
+PASS Space scaling factor 3
+PASS scale label matches 3
+PASS HUD dimensions remain unchanged 3
+PASS Space scaling factor 4
+PASS scale label matches 4
+PASS HUD dimensions remain unchanged 4
+PASS Space scaling factor 1
+PASS scale label matches 1
+PASS HUD dimensions remain unchanged 1
+PASS Space scaling factor 2
+PASS scale label matches 2
+PASS HUD dimensions remain unchanged 2
+PASS Space scaling factor 3
+PASS scale label matches 3
+PASS HUD dimensions remain unchanged 3
+PASS Space scaling factor 4
+PASS scale label matches 4
+PASS HUD dimensions remain unchanged 4
+PASS Space scaling factor 1
+PASS scale label matches 1
+PASS HUD dimensions remain unchanged 1
+PASS filter state cycles 1
+REQUESTED_FILTER 1 EFFECTIVE_PROPERTY 1 LABEL Scaling 3D Mode: FSR
+PASS filter state cycles 2
+REQUESTED_FILTER 2 EFFECTIVE_PROPERTY 2 LABEL Scaling 3D Mode: FSR 2
+PASS filter state cycles 3
+REQUESTED_FILTER 3 EFFECTIVE_PROPERTY 3 LABEL Scaling 3D Mode: Metalfx Spatial
+PASS filter state cycles 4
+REQUESTED_FILTER 4 EFFECTIVE_PROPERTY 4 LABEL Scaling 3D Mode: Metalfx Temporal
+PASS filter state cycles 5
+REQUESTED_FILTER 5 EFFECTIVE_PROPERTY 5 LABEL Scaling 3D Mode: Nearest
+PASS filter state cycles 0
+REQUESTED_FILTER 0 EFFECTIVE_PROPERTY 0 LABEL Scaling 3D Mode: Bilinear
+PASS filter state cycles 1
+REQUESTED_FILTER 1 EFFECTIVE_PROPERTY 1 LABEL Scaling 3D Mode: FSR
+PASS filter state cycles 2
+REQUESTED_FILTER 2 EFFECTIVE_PROPERTY 2 LABEL Scaling 3D Mode: FSR 2
+PASS filter state cycles 3
+REQUESTED_FILTER 3 EFFECTIVE_PROPERTY 3 LABEL Scaling 3D Mode: Metalfx Spatial
+PASS filter state cycles 4
+REQUESTED_FILTER 4 EFFECTIVE_PROPERTY 4 LABEL Scaling 3D Mode: Metalfx Temporal
+PASS filter state cycles 5
+REQUESTED_FILTER 5 EFFECTIVE_PROPERTY 5 LABEL Scaling 3D Mode: Nearest
+PASS filter state cycles 0
+REQUESTED_FILTER 0 EFFECTIVE_PROPERTY 0 LABEL Scaling 3D Mode: Bilinear
+PASS eight cube mesh instances loaded
+HEADLESS STATE ONLY: no GPU scaling/filter quality or native-resolution pixels verified; failures=0

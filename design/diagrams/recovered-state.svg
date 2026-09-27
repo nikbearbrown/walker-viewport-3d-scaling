@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600" role="img" aria-labelledby="t d">
+<title id="t">Recovered input and state flow · 3D Resolution Scaling</title>
+<desc id="d">Two key actions each advance one wrapped integer and write one root-viewport property; observed in godot/hud.gd:19-34. IDs: M-01 M-02 M-03 · S-02 · F-01..F-04.</desc>
+<rect width="1200" height="600" fill="#faf9f5"/>
+<defs><marker id="a" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" refX="9" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#25354a"/></marker><marker id="ar" markerWidth="11" markerHeight="11" markerUnits="userSpaceOnUse" refX="9" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="#d24e42"/></marker></defs>
+<g font-family="Helvetica, Arial, sans-serif">
+<text x="32" y="44" font-size="26" font-weight="700" fill="#25354a">Recovered input and state flow · 3D Resolution Scaling</text>
+<text x="32" y="68" font-size="14" fill="#5b6b7c">Two key actions each advance one wrapped integer and write one root-viewport property; observed in godot/hud.gd:19-34.</text>
+<text x="32" y="88" font-size="13" fill="#5b6b7c">IDs: M-01 M-02 M-03 · S-02 · F-01..F-04</text>
+<text x="32" y="122" font-size="14" fill="#25354a" text-anchor="start" font-weight="700">SPACE · cycle_viewport_resolution (M-01)</text>
+<rect x="40" y="140" width="170" height="70" rx="10" fill="#fffdf7" stroke="#25354a" stroke-width="2.5"/>
+<text x="125.0" y="172.5" font-size="17" font-weight="700" text-anchor="middle" fill="#25354a">factor 1</text>
+<text x="125.0" y="192.5" font-size="13" text-anchor="middle" fill="#5b6b7c">scaling_3d_scale 100%</text>
+<rect x="250" y="140" width="170" height="70" rx="10" fill="#fffdf7" stroke="#25354a" stroke-width="2.5"/>
+<text x="335.0" y="172.5" font-size="17" font-weight="700" text-anchor="middle" fill="#25354a">factor 2</text>
+<text x="335.0" y="192.5" font-size="13" text-anchor="middle" fill="#5b6b7c">scaling_3d_scale 50%</text>
+<rect x="460" y="140" width="170" height="70" rx="10" fill="#fffdf7" stroke="#25354a" stroke-width="2.5"/>
+<text x="545.0" y="172.5" font-size="17" font-weight="700" text-anchor="middle" fill="#25354a">factor 3</text>
+<text x="545.0" y="192.5" font-size="13" text-anchor="middle" fill="#5b6b7c">scaling_3d_scale 33%</text>
+<rect x="670" y="140" width="170" height="70" rx="10" fill="#fffdf7" stroke="#25354a" stroke-width="2.5"/>
+<text x="755.0" y="172.5" font-size="17" font-weight="700" text-anchor="middle" fill="#25354a">factor 4</text>
+<text x="755.0" y="192.5" font-size="13" text-anchor="middle" fill="#5b6b7c">scaling_3d_scale 25%</text>
+<path d="M210 175 L248 175" fill="none" stroke="#25354a" stroke-width="2.2" marker-end="url(#a)"/>
+<text x="229.0" y="167.0" font-size="13" text-anchor="middle" fill="#5b6b7c">Space</text>
+<path d="M420 175 L458 175" fill="none" stroke="#25354a" stroke-width="2.2" marker-end="url(#a)"/>
+<text x="439.0" y="167.0" font-size="13" text-anchor="middle" fill="#5b6b7c">Space</text>
+<path d="M630 175 L668 175" fill="none" stroke="#25354a" stroke-width="2.2" marker-end="url(#a)"/>
+<text x="649.0" y="167.0" font-size="13" text-anchor="middle" fill="#5b6b7c">Space</text>
+<path d="M755 212 L755 240 L125 240 L125 214" fill="none" stroke="#25354a" stroke-width="2.2" marker-end="url(#a)"/>
+<text x="440" y="258" font-size="13" text-anchor="middle" fill="#5b6b7c">Space (wrapi back to 1)</text>
+<rect x="900" y="140" width="260" height="70" rx="10" fill="#fffdf7" stroke="#25354a" stroke-width="2.5"/>
+<text x="1030.0" y="172.5" font-size="17" font-weight="700" text-anchor="middle" fill="#25354a">Scale label</text>
+<text x="1030.0" y="192.5" font-size="13" text-anchor="middle" fill="#5b6b7c">&quot;Scale: %3.0f%%&quot; hud.gd:23</text>
+<path d="M840 175 L898 175" fill="none" stroke="#25354a" stroke-width="2.2" marker-end="url(#a)"/>
+<text x="32" y="302" font-size="14" fill="#25354a" text-anchor="start" font-weight="700">ENTER · toggle_filtering (M-02)</text>
+<rect x="40" y="320" width="120" height="60" rx="10" fill="#fffdf7" stroke="#25354a" stroke-width="2.5"/>
+<text x="100.0" y="356.0" font-size="17" font-weight="700" text-anchor="middle" fill="#25354a">Bilinear</text>
+<rect x="180" y="320" width="120" height="60" rx="10" fill="#fffdf7" stroke="#25354a" stroke-width="2.5"/>
+<text x="240.0" y="356.0" font-size="17" font-weight="700" text-anchor="middle" fill="#25354a">FSR</text>
+<rect x="320" y="320" width="120" height="60" rx="10" fill="#fffdf7" stroke="#25354a" stroke-width="2.5"/>
+<text x="380.0" y="356.0" font-size="17" font-weight="700" text-anchor="middle" fill="#25354a">FSR 2</text>
+<rect x="460" y="320" width="120" height="60" rx="10" fill="#fffdf7" stroke="#25354a" stroke-width="2.5"/>
+<text x="520.0" y="356.0" font-size="17" font-weight="700" text-anchor="middle" fill="#25354a">MetalFX Sp.</text>
+<rect x="600" y="320" width="120" height="60" rx="10" fill="#fffdf7" stroke="#25354a" stroke-width="2.5"/>
+<text x="660.0" y="356.0" font-size="17" font-weight="700" text-anchor="middle" fill="#25354a">MetalFX Tmp.</text>
+<rect x="740" y="320" width="120" height="60" rx="10" fill="#fffdf7" stroke="#25354a" stroke-width="2.5"/>
+<text x="800.0" y="356.0" font-size="17" font-weight="700" text-anchor="middle" fill="#25354a">Nearest</text>
+<path d="M160 350 L178 350" fill="none" stroke="#25354a" stroke-width="2.2" marker-end="url(#a)"/>
+<path d="M300 350 L318 350" fill="none" stroke="#25354a" stroke-width="2.2" marker-end="url(#a)"/>
+<path d="M440 350 L458 350" fill="none" stroke="#25354a" stroke-width="2.2" marker-end="url(#a)"/>
+<path d="M580 350 L598 350" fill="none" stroke="#25354a" stroke-width="2.2" marker-end="url(#a)"/>
+<path d="M720 350 L738 350" fill="none" stroke="#25354a" stroke-width="2.2" marker-end="url(#a)"/>
+<path d="M800 382 L800 410 L100 410 L100 384" fill="none" stroke="#25354a" stroke-width="2.2" marker-end="url(#a)"/>
+<text x="450" y="428" font-size="13" text-anchor="middle" fill="#5b6b7c">Enter wraps (6 modes seen in scaling-20260924.log)</text>
+<rect x="900" y="320" width="260" height="60" rx="10" fill="#fffdf7" stroke="#25354a" stroke-width="2.5"/>
+<text x="1030.0" y="347.5" font-size="17" font-weight="700" text-anchor="middle" fill="#25354a">Filter label</text>
+<text x="1030.0" y="367.5" font-size="13" text-anchor="middle" fill="#5b6b7c">hud.gd:28-34</text>
+<path d="M860 350 L898 350" fill="none" stroke="#25354a" stroke-width="2.2" marker-end="url(#a)"/>
+<rect x="40" y="460" width="520" height="70" rx="10" fill="#fffdf7" stroke="#25354a" stroke-width="2.5"/>
+<text x="300.0" y="492.5" font-size="17" font-weight="700" text-anchor="middle" fill="#25354a">HUD Control at native resolution</text>
+<text x="300.0" y="512.5" font-size="13" text-anchor="middle" fill="#5b6b7c">never scaled; size unchanged in 8/8 checks (M-03, F-03)</text>
+<rect x="620" y="460" width="540" height="70" rx="10" fill="#fffdf7" stroke="#d24e42" stroke-width="2.5" stroke-dasharray="9 7"/>
+<text x="890.0" y="492.5" font-size="17" font-weight="700" text-anchor="middle" fill="#25354a">Player goal, score, end state</text>
+<text x="890.0" y="512.5" font-size="13" text-anchor="middle" fill="#5b6b7c">none in code: [MISSING] Q-01..Q-03</text>
+<rect x="32" y="565" width="34" height="16" rx="3" fill="#fffdf7" stroke="#25354a" stroke-width="2"/><text x="74" y="578" font-size="13" fill="#5b6b7c">solid = observed in code</text><rect x="260" y="565" width="34" height="16" rx="3" fill="#fffdf7" stroke="#d24e42" stroke-width="2" stroke-dasharray="6 5"/><text x="302" y="578" font-size="13" fill="#5b6b7c">dashed = proposed / missing / not in code (unapproved)</text>
+</g>
+</svg>
